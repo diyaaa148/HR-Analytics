@@ -9,11 +9,11 @@
 
 ## 🔖 Project Overview
 
-**Project Title / Headline**
+Project Title / Headline
 
-** HR Analytics & Leave Management Dashboard** — A Power BI report that visualizes employee presence, leave trends, leave types, and department-level attendance KPIs to support workforce planning and employee-engagement strategies.
+HR Analytics & Leave Management Dashboard — A Power BI report that visualizes employee presence, leave trends, leave types, and department-level attendance KPIs to support workforce planning and employee-engagement strategies.
 
-**Short Description / Purpose**
+Short Description / Purpose
 
 HR Analytics provides a clear, interactive way to explore how employees use leave, when absence peaks occur, and which departments have lower presence rates. It helps HR and managers spot trends, adjust staffing plans, and improve policies.
 
@@ -72,18 +72,14 @@ HR Management: Monitor attendance patterns and identify trends
 Workforce Planning: Understand remote work adoption and sick leave patterns
 Performance Tracking: Individual employee attendance analysis
 Trend Analysis: Identify seasonal or periodic variations in presence
-## 📈 Metrics Explained
-Metric	Description	Significance
-Presence %	Percentage of scheduled work days where employee was present	Core attendance indicator
-WFH %	Percentage of work-from-home days	Remote work adoption rate
-SL %	Sick leave percentage	Health and wellness indicator
-% Change	Period-over-period change in presence	Trend direction
 
-## 🛠️ Technical Details
-### Data Period
-Start Date: April 1, 2022
-End Date: June 30, 2022
-Duration: 3 months (Q2 2022)
+## 📈 Metrics Explained
+### Metric	Description	Significance
+* Presence % :	Percentage of scheduled work days where employee was present	, Core attendance indicator
+* WFH %	: Percentage of work-from-home days ,	Remote work adoption rate
+* SL % :	Sick leave percentage ,	Health and wellness indicator
+* % Change : Period-over-period change in presence	, Trend direction
+
 
 ## Dashboard Components
 Interactive time-series charts with trend lines

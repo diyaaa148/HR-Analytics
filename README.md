@@ -2,6 +2,9 @@
 
 **HR Analytics** is an interactive Power BI dashboard that analyzes employee attendance, leave patterns, and workforce presence to help HR teams make data-driven staffing and policy decisions.
 
+![Uploading HR_Analytics.png…]()
+
+
 ---
 
 ## 🔖 Project Overview
@@ -26,24 +29,73 @@ HR Analytics provides a clear, interactive way to explore how employees use leav
 
 ---
 
-## 📊 Data Source & Sample Schema
+## Key Features
+1. High-Level KPI Metrics
 
-**Source:** Internal HR attendance & leave logs (anonymized for public sharing).
+Overall Presence Rate: 91.83% - Primary attendance metric
+Work From Home (WFH) Rate: 1.10% - Remote work tracking
+Sick Leave (SL) Rate: 10.00% - Health-related absences
+
+2. Temporal Analysis
+The dashboard includes three time-series visualizations covering April 2022 to June 2022:
+
+Presence % by Date: Line chart showing daily presence fluctuations with trend analysis
+WFH % by Date: Tracks remote work patterns with reference baseline (yellow dashed line)
+SL % by Date: Monitors sick leave trends with variability indicators (purple line chart)
+
+3. Individual Employee Metrics
+Detailed breakdown for each team member including:
+
+Employee name
+Individual presence percentage
+Percentage change indicators
+WFH percentage
+Sick leave percentage
+
+Top Performers:
+
+Aditya Watts: 93.11% presence
+Aaniul Pacx: 98.21% presence
+Acuyun Meyer: 98.21% presence
+
+4. Day-of-Week Analysis
+Performance metrics segmented by weekdays:
+
+Monday through Friday breakdown
+Total weekly averages
+Identifies patterns (e.g., Friday shows lowest presence at 0.75%)
 
 ---
 
-## ✨ Features & Highlights
+## Use Cases
+HR Management: Monitor attendance patterns and identify trends
+Workforce Planning: Understand remote work adoption and sick leave patterns
+Performance Tracking: Individual employee attendance analysis
+Trend Analysis: Identify seasonal or periodic variations in presence
+## 📈 Metrics Explained
+Metric	Description	Significance
+Presence %	Percentage of scheduled work days where employee was present	Core attendance indicator
+WFH %	Percentage of work-from-home days	Remote work adoption rate
+SL %	Sick leave percentage	Health and wellness indicator
+% Change	Period-over-period change in presence	Trend direction
 
-* **KPI Summary cards**: Total employees, total leave days, average presence rate, avg leave per employee, departments covered.
-* **Department filter**: Slicers to filter visuals by department, location, tenure band, and date range.
-* **Monthly Leave Trends**: Line chart showing total leaves per month, with drill-down by department.
-* **Leave Type Breakdown**: Donut / Pie chart for Sick/Casual/Earned/Other.
-* **Department-wise Presence Rate**: Bar chart comparing presence rate by department.
-* **Employee-level table**: Searchable table with employee-level leave counts and presence metrics.
-* **Heatmap / Correlation**: Optional matrix view correlating absences with tenure, role, or seasonality.
-* **Actionable Insights**: Alerts for departments with sudden spike in unplanned absences.
+## 🛠️ Technical Details
+### Data Period
+Start Date: April 1, 2022
+End Date: June 30, 2022
+Duration: 3 months (Q2 2022)
 
----
+## Dashboard Components
+Interactive time-series charts with trend lines
+Comparative reference baselines (dashed lines)
+Responsive data tables with sorting capabilities
+Color-coded performance indicators
+## 📊 Data Insights
+### Key Observations from the Dashboard:
 
-
+Stable Presence: Overall presence maintained around 90% throughout the period
+Low WFH Adoption: Work-from-home rate remains consistently low at ~1%
+Variable Sick Leave: SL percentages show significant day-to-day variation
+Weekly Patterns: Friday shows notably lower presence across metrics
+High Performers: Several employees maintain >95% presence rates
 

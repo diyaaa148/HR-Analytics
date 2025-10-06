@@ -2,7 +2,7 @@
 
 **HR Analytics** is an interactive Power BI dashboard that analyzes employee attendance, leave patterns, and workforce presence to help HR teams make data-driven staffing and policy decisions.
 
-![Uploading HR_Analytics.png…]()
+<img width="722" height="400" alt="HR_Analytics" src="https://github.com/user-attachments/assets/a11eceda-cd85-49eb-8520-2eebc58d1e99" />
 
 
 ---
